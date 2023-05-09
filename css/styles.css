@@ -57,13 +57,14 @@ h3 {
 .address {
     font-style: normal;
 }
-ul#site-nav li {
-    display: inline-block;
-    padding: 0;
-    margin: 0;
+.site-nav {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 1.5;
+    color:var(--title-text-color);
 }
 .link {
-    font-weight: 500;
+    
     color: var(--title-text-color);
     letter-spacing: 0.02em;
     text-decoration: none; 
@@ -208,8 +209,6 @@ footer {
     font-family: "Roboto", sans-serif;
     letter-spacing: 0.04em
     cursor: pointer;
-
-
 }
 
 .button-portfolio:hover,
@@ -230,4 +229,7 @@ footer {
 }
 .activities {
     list-style: none;
+}
+.activities-type {
+    text-decoration: none;
 }
