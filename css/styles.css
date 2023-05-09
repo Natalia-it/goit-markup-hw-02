@@ -83,7 +83,8 @@ ul#auth-nav li {
     letter-spacing: 0.02em;
     flex: none;
     margin-top: 24px;
-    font-style: normal 
+    font-style: normal;
+    color: var(--title-text-color);
 }
 .auth-link {
     letter-spacing: 0.02em;
@@ -132,7 +133,7 @@ ul#auth-nav li {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    spacing: 0.04em;
+    letter-spacing: 0.04em;
 }
 
 .hero-button:hover,
@@ -163,7 +164,9 @@ ul#auth-nav li {
     text-transform: capitalize;
     color: var(--title-text-color);
 }
-
+.team-h3 {
+    letter-spacing: 0.02em; 
+}
 .work-team {
     background-color: var(--back-dark-color);
 }
