@@ -142,17 +142,26 @@ ul#auth-nav li {
     width: 264px;
     display: inline-block;
 }
-
+.main-h3 {
+    letter-spacing: 0.02em;
+}
+.main-p {
+    letter-spacing: 0.02em;
+}
 .work-base {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--title-text-color);
 }
 
 .work-team {
     background-color: var(--back-dark-color);
+}
+.team {
+    background-color: var(--primary-white-color);
 }
 
 /* Footer */
