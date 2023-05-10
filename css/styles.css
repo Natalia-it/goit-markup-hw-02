@@ -13,7 +13,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;  
+      
 }
 h1 {
     text-align: center;
@@ -53,6 +53,7 @@ h3 {
     color: var(--title-text-color);
     text-transform: uppercase; 
     display: inline-block; 
+    letter-spacing: 0.03em
 }
 .address {
     font-style: normal;
@@ -67,7 +68,8 @@ h3 {
     
     color: var(--title-text-color);
     letter-spacing: 0.02em;
-    text-decoration: none; 
+    text-decoration: none;
+    font-weight: 500; 
 }
 .link:hover,
 .link:focus {
@@ -176,13 +178,14 @@ ul#auth-nav li {
 }
 
 /* Footer */
-footer {
+.footer {
     background-color: var(--title-text-color);
     width: 1440px;
     height: 312px;
 }
 .logo-footer {
     color: var(--back-dark-color);
+    letter-spacing: 0.03em
 }
 .footer-text {
     color: var(--back-dark-color);
