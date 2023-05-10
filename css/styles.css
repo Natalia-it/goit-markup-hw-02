@@ -140,7 +140,7 @@ ul#auth-nav li {
     display: inline-block;
     
 }
-.main-h3 {
+.main-adv {
     letter-spacing: 0.02em;
 }
 .main-p {
@@ -156,7 +156,7 @@ ul#auth-nav li {
     color: var(--title-text-color);
     text-align: center;
 }
-.team-h3 {
+.main-team {
     letter-spacing: 0.02em; 
 }
 .work-team {
