@@ -22,8 +22,8 @@ h3 {
     line-height: 1.2;
     color: var(--title-text-color);
 }
+
 .link {
-    
     color: var(--title-text-color);
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -51,7 +51,6 @@ h3 {
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.03em;
 }
-
 .logo-header {
     padding: 0;
     margin: 0;
@@ -65,10 +64,12 @@ h3 {
     display: inline-block; 
     letter-spacing: 0.03em
 }
+.site-nav {
+    .list-style: none;
+}
 .address {
     font-style: normal;
 }
-
 ul#auth-nav li {
     list-style: none;
     display: inline-block;
@@ -87,12 +88,10 @@ ul#auth-nav li {
     font-style: normal;
     line-height: 1.5;
 }
-
 .auth-link:hover,
 .auth-link:focus {
     color: var(--back-accent-color);
 }
-
 .auth-link.current {
     color: var(--back-accent-color);
 }
@@ -112,9 +111,7 @@ ul#auth-nav li {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-
 }
-
 .hero-button {
     font-weight: 500;
     background-color: var(--accent-color);
@@ -130,20 +127,18 @@ ul#auth-nav li {
     line-height: 1.5;
     letter-spacing: 0.04em;
 }
-
 .hero-button:hover,
 .hero-button:focus {
     color: var(--primary-white-color);
     background-color: var(--back-accent-color);    
 }
-
 .list {
     list-style: none;
  }
-
 .advantage {
     width: 264px;
     display: inline-block;
+    list-style: none;
 }
 .main-h3 {
     letter-spacing: 0.02em;
@@ -167,15 +162,16 @@ ul#auth-nav li {
 .work-team {
     background-color: var(--back-dark-color);
 }
-
+.team {
+    list-style: none;
+}
 .team-card {
     background-color: var(--primary-white-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     width: 264px;
     height: 380px;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 /* Footer */
