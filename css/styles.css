@@ -220,7 +220,14 @@ ul#auth-nav li {
      background-color: var(--back-accent-color);
      color: var(--primary-white-color);
      box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
+    border-radius: 4px;    
+}
+
+.activities {
+    list-style: none;
+}
+.activities-type {
+    text-decoration: none;
     
 }
 .brand {
@@ -231,9 +238,8 @@ ul#auth-nav li {
     color: var(--title-text-color);
     text-align: left;
 }
-.activities {
-    list-style: none;
-}
-.activities-type {
-    text-decoration: none;
+.direction {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
