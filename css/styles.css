@@ -32,7 +32,9 @@ h3 {
     color: var(--title-text-color);
     letter-spacing: 0.02em;
     text-decoration: none;
-    font-weight: 500; 
+    font-weight: 500;
+    line-height: 1.5; 
+    font-size: 16px;
 }
 .link:hover,
 .link:focus {
@@ -70,12 +72,6 @@ h3 {
 }
 .address {
     font-style: normal;
-}
-.site-nav {
-    font-weight: 800;
-    font-size: 16px;
-    line-height: 1.5;
-    color:var(--title-text-color);
 }
 
 ul#auth-nav li {
