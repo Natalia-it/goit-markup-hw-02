@@ -27,9 +27,22 @@ h3 {
     line-height: 1.2;
     color: var(--title-text-color);
 }
+.link {
+    
+    color: var(--title-text-color);
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    font-weight: 500; 
+}
+.link:hover,
+.link:focus {
+    color: var(--back-accent-color);
+}
+.link.current {
+    color: var(--back-accent-color);
+}
 .logo {
     margin-left: 156px;
-    display: inline-block;
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
@@ -64,20 +77,7 @@ h3 {
     line-height: 1.5;
     color:var(--title-text-color);
 }
-.link {
-    
-    color: var(--title-text-color);
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    font-weight: 500; 
-}
-.link:hover,
-.link:focus {
-    color: var(--back-accent-color);
-}
-.link.current {
-    color: var(--back-accent-color);
-}
+
 ul#auth-nav li {
     list-style: none;
     display: inline-block;
